@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(pexels-georgie-devlin-12059441.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.julia {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #fd92c8;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.loginbox input[type="Username"] , [type="Password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: beige;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fd92c8;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"] :hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a :hover {
+    color: #ffc107;
+}
+
+.loginbox input[placeholder="Enter Username"] , [placeholder="Enter Password"]{
+    color: beige;
+}
